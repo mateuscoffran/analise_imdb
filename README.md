@@ -20,7 +20,10 @@ Após esses tratamentos, foi realizada a Análise Exploratória de Dados. Calcul
 
 Com a EDA finalizada, desenvolvi 6 modelos para avaliar qual teria o melhor poder de predição da nota IMDB.
 Os 6 modelos desenvolvidos foram: Regressão Logística, Árvore de Decisão, Bagging de Regressão Logística, Random Forest, AdaBoost e Gradient Boosting.
+
 Foram calculadas métricas de desempenho dos modelos. A principal medida utilizada para avaliação dos modelos foi o AUROC.
 Os 2 modelos que apresentaram as melhores performances foram o AdaBoost e o Gradient Boosting.
+
 Uma vez analisados todos os modelos, realizei a Tunagem dos Hiperparâmetros dos 2 melhores modelos avaliados.
+
 Após a Tunagem, o modelo que apresentou a melhor performance foi o Gradient Boosting, apresentando um AUROC superior a 88% na base de teste e entregando uma boa capacidade de generalização.
