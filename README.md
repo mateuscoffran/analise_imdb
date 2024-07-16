@@ -16,7 +16,7 @@ Foi elaborada a fase de Preparação de Dados, em que foram tratados os Missing 
 
 Em seguida, variáveis foram transformadas para o prosseguimento das análises. Houve mudança de tipo de variável e remoção de palavras em colunas numéricas.
 
-Após esses tratamentos, foi realizada a Análise Exploratória de Dados. Calculei o Índice de Correlação entre variáveis quantitativas e o nível de associação entre variáveis qualitativas e variáveis binárias, que foram criadas, utilizando o IV (Information Value). Com base nesses cálculos, realizei uma série de análises do comportamento das variáveis e dos relacionamentos entre si.
+Após esses tratamentos, foi realizada a Análise Exploratória de Dados. Calculei o Índice de Correlação entre variáveis quantitativas e o nível de associação entre variáveis qualitativas e variáveis binárias, que foram criadas, utilizando o IV (Information Value). Com base nesses cálculos, realizei uma série de análises do comportamento das variáveis e dos relacionamentos entre elas.
 
 Com a EDA finalizada, desenvolvi 6 modelos para avaliar qual teria o melhor poder de predição da nota IMDB.
 Os 6 modelos desenvolvidos foram: Regressão Logística, Árvore de Decisão, Bagging de Regressão Logística, Random Forest, AdaBoost e Gradient Boosting.
